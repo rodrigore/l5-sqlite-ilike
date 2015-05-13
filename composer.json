@@ -1,0 +1,21 @@
+{
+    "name": "bmatics/sqliteilike",
+    "description": "Sqlite driver replacing ilike with like for Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Matics",
+            "email": "benjaminmatics@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bmatics\\SqliteIlike\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
