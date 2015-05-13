@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bmatics\\SqliteIlike\\": "src/"
+            "Bmatics\\SQLiteIlike\\": "src/"
         }
     },
     "minimum-stability": "dev"
