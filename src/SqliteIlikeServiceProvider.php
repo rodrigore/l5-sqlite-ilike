@@ -1,10 +1,10 @@
 <?php
-namespace Bmatics\SqliteIlike;
+namespace Bmatics\SQLiteIlike;
 
 use Illuminate\Support\ServiceProvider;
-use Bmatics\SqliteIlike\Database\SqliteIlikeConnection;
+use Bmatics\SqliteIlike\Database\SQLiteIlikeConnection;
 
-class SqliteIlikeServiceProvider extends ServiceProvider {
+class SQLiteIlikeServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
@@ -20,6 +20,6 @@ class SqliteIlikeServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->bind('db.connection.sqlite', 'Bmatics\SqliteIlike\Database\SqliteIlikeConnection');
+		$this->app->bind('db.connection.sqlite', 'Bmatics\SQLiteIlike\Database\SQLiteIlikeConnection');
 	}
 }

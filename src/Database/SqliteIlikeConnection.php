@@ -1,10 +1,10 @@
 <?php
-namespace Bmatics\SqliteIlike\Database;
+namespace Bmatics\SQLiteIlike\Database;
 
-use Bmatics\SqliteIlike\Database\Query\Grammars\SqliteIlikeGrammar as QueryGrammar;
-use Illuminate\Database\SqliteConnection;
+use Bmatics\SqliteIlike\Database\Query\Grammars\SQLiteIlikeGrammar as QueryGrammar;
+use Illuminate\Database\SQLiteConnection;
 
-class SqliteIlikeConnection extends SqliteConnection
+class SQLiteIlikeConnection extends SQLiteConnection
 {
 	protected function getDefaultQueryGrammar()
 	{

@@ -1,10 +1,10 @@
 <?php
-namespace Bmatics\SqliteIlike\Database\Query\Grammars;
+namespace Bmatics\SQLiteIlike\Database\Query\Grammars;
 
 use Illuminate\Database\Query\Builder;
-use Illuminate\Database\Query\Grammars\SqliteGrammar;
+use Illuminate\Database\Query\Grammars\SQLiteGrammar;
 
-class SqliteIlikeGrammar extends PostgresGrammar
+class SQLiteIlikeGrammar extends SQLiteGrammar
 {
 	protected function compileWheres(Builder $query)
 	{
