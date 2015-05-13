@@ -1,6 +1,6 @@
 {
     "name": "bmatics/sqliteilike",
-    "description": "Sqlite driver replacing ilike with like for Laravel 5",
+    "description": "SQLite driver replacing ilike with like for Laravel 5",
     "license": "MIT",
     "authors": [
         {
