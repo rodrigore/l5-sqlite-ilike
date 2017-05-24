@@ -1,5 +1,5 @@
 {
-    "name": "bmatics/sqliteilike",
+    "name": "rodrigore/sqliteilike",
     "description": "SQLite driver replacing ilike with like for Laravel 5",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.0.*"
+        "illuminate/support": "5.4.*"
     },
     "autoload": {
         "psr-4": {
